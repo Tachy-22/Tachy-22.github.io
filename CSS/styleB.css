@@ -1,0 +1,39 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 200px;
+  margin-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 125px;
+  background: hsl(0, 0%, 100%);
+  width: 270px;
+  height: 270px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0.001px 15px 30px 10px hsl(211, 40%, 80%);
+}
+.img {
+  border-radius: 12px;
+  background: url(/CSS/images/image-qr-code2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 600px;
+}
+.content {
+  font-size: 10px;
+  padding-top: 250px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+span {
+  color: hsl(220, 15%, 55%);
+  font-size: 8px;
+  padding-top: 100px;
+}
