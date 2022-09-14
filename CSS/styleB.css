@@ -2,38 +2,54 @@ html {
   background-color: hsl(212, 45%, 89%);
 }
 div {
-  display: flex;
-  justify-content: center;
-}
-.container {
-  margin-top: 200px;
-  margin-bottom: 12px;
-  padding-top: 10px;
-  padding-bottom: 125px;
-  background: hsl(0, 0%, 100%);
-  width: 270px;
-  height: 270px;
-  text-align: center;
+
+  margin-top: 10%;
+  margin-bottom: 1%;
+  margin-left: 42%;
   border-radius: 15px;
-  box-shadow: 0.001px 15px 30px 10px hsl(211, 40%, 80%);
+
+  text-align: center;
+  width: 25%;
+  height: 450px;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  min-height: 380px;
+  max-width: 250px;
+  max-height: 350px;
 }
-.img {
-  border-radius: 12px;
-  background: url(/CSS/images/image-qr-code2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 250px;
-  height: 250px;
-  margin-bottom: 600px;
+.content1 {
+  font-weight: 700;
+  display: flex;
+  font-size: 19px;
+
+  position: relative;
+  top: 65%;
 }
-.content {
-  font-size: 10px;
-  padding-top: 250px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+.content2 {
+  font-weight: 400;
+  color: hsl(218, 44%, 22%);
+  display: flex;
+  font-size: 16px;
+
+  position: relative;
+  top: 65%;
 }
-span {
-  color: hsl(220, 15%, 55%);
-  font-size: 13px;
-  padding-top: 100px;
+img {
+  position: relative;
+  bottom: 30%;
+  width: 87%;
+  border-radius: 10px;
+}
+.attribution {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+ 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
