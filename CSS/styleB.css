@@ -30,7 +30,8 @@ p {
 img {
   border-radius: 10px;
 }
-.links {
-  margin: 50px;
+ .links {
+  margin-top: 50px;
+  color: hsl(218, 44%, 22%);
 }
 
