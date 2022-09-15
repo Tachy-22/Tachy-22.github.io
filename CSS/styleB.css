@@ -1,75 +1,36 @@
-/* Code for mobile view */
-@media screen and (min-width: 357px) {
-  /* Code for everything on display */
-  * {
-    padding: 0;
-    margin: 0;
-    
-font-family: "Monsieur La Doulaise", cursive;
-
-    
-  }
-  body {
-    background: hsl(212, 45%, 89%);
-  }
-
-  div {
-    /* centering code */
-    display: fixed;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    /* dimension code */
-    border-radius: 20px;
-    width: 305px;
-    margin-top: 20vh;
-    margin-left: 7.5%;
-    font-size: 12px;
-  }
-
-  div.content {
-    background: hsl(0, 0%, 100%);
-    padding: 6%;
-  }
-  /* Code for individual div items */
-  img {
-    border-radius: 15px;
-  }
-  div h1 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-weight: 700;
-  }
-  div p {
-    font-weight: 400;
-    padding-left: 4vh;
-    padding-right: 4vh;
-  }
-  div.bottom_link {
-    margin-left: 16vw;
-  }
-
-  /* Bottom link code */
-  .bottom_link {
-    background-color: hsl(212, 45%, 89%);
-    font-size: 11px;
-    text-align: center;
-    position: relative;
-    top: 10%;
-  }
-  .bottom_link a {
-    color: hsl(228, 45%, 44%);
-  }
+html,
+body {
+  background: hsl(212, 45%, 89%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+p {
+   color:hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+.general {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_items {
+  background: hsl(0, 0%, 100%);
+  padding: 10px;
+  width: 310px;
+  border-radius: 10px;
+}
+img {
+  border-radius: 10px;
+}
+.links {
+  margin: 50px;
 }
 
-@media screen and (min-width: 540px) {
-  /* Code for placing the qr toward the left when screen size changes */
-  div {
-    margin-left: 21vw;
-  }
-
-  div.bottom_link {
-    margin-left: 44%;
-  }
-}
