@@ -1,55 +1,76 @@
-html {
-  background-color: hsl(212, 45%, 89%);
-}
-div {
+  /* Code for mobile view */
+@media screen and (min-width: 357px) {
+  /* Code for everything on display */
+  * {
+    padding: 0;
+    margin: 0;
+    
+font-family: "Monsieur La Doulaise", cursive;
 
-  margin-top: 10%;
-  margin-bottom: 1%;
-  margin-left: 42%;
-  border-radius: 15px;
+    
+  }
+  body {
+    background: hsl(212, 45%, 89%);
+  }
 
-  text-align: center;
-  width: 25%;
-  height: 450px;
-  background-color: hsl(0, 0%, 100%);
-  align-items: center;
-  justify-content: center;
-  min-width: 250px;
-  min-height: 380px;
-  max-width: 250px;
-  max-height: 350px;
-}
-.content1 {
-  font-weight: 700;
-  display: flex;
-  font-size: 19px;
+  div {
+    /* centering code */
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-  position: relative;
-  top: 65%;
-}
-.content2 {
-  font-weight: 400;
-  color: hsl(218, 44%, 22%);
-  display: flex;
-  font-size: 16px;
+    /* dimension code */
+    border-radius: 20px;
+    width: 305px;
+    margin-top: 20vh;
+    margin-left: 7.5%;
+    font-size: 12px;
+  }
 
-  position: relative;
-  top: 65%;
+  div.content {
+    background: hsl(0, 0%, 100%);
+    padding: 6%;
+  }
+  /* Code for individual div items */
+  img {
+    border-radius: 15px;
+  }
+  div h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 700;
+  }
+  div p {
+    font-weight: 400;
+    padding-left: 4vh;
+    padding-right: 4vh;
+  }
+  div.bottom_link {
+    margin-left: 16vw;
+  }
+
+  /* Bottom link code */
+  .bottom_link {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+  }
+  .bottom_link a {
+    color: hsl(228, 45%, 44%);
+  }
 }
-img {
-  position: relative;
-  bottom: 30%;
-  width: 87%;
-  border-radius: 10px;
+
+@media screen and (min-width: 540px) {
+  /* Code for placing the qr toward the left when screen size changes */
+  div {
+    margin-left: 21vw;
+  }
+
+  div.bottom_link {
+    margin-left: 44%;
+  }
 }
-.attribution {
-  background-color: hsl(212, 45%, 89%);
-  font-size: 11px;
-  text-align: center;
-  position: relative;
-  top: 10%;
- 
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
